@@ -62,7 +62,7 @@ export default function Navbar() {
 
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-600'>
                             <a href='/' className='flex justify-between w-full text-gray-300'>
-                                CV <BsFillPersonLinesFill size={30}/>
+                                Resume <BsFillPersonLinesFill size={30}/>
                             </a>
                         </li>
                     </ul>
