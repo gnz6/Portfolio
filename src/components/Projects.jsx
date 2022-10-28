@@ -1,7 +1,9 @@
 import React from 'react'
 //imports img projects
 import arquihubHome from "../assets/arquihubHome.png"
-
+import countriesHome from "../assets/countriesHome.png"
+import games from "../assets/start.png"
+import bricks from "../assets/allgames.png"
 
 const Projects = () => {
   return (
@@ -12,28 +14,92 @@ const Projects = () => {
           <p className='py-6'>Check out some of my recent Projects</p>
         </div>
 
-    <div style={{backgroundImage: `url(${arquihubHome})`}} 
-    className='grid sm:grid-cols-2 md: gird-cols-3 gap-4'>
-      <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+    <div className='grid sm:grid-cols-2 md: gird-cols-3 gap-4'>
+      <div style={{backgroundImage: `url(${arquihubHome})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
         <div className='opacity-0 group-hover:opacity-100'>
           <span className='text-2xl font-bold text-white tracking-wider'>
     ReactJs App
           </span>
             <div>
             <a href='/'>
-                <button>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Deploy
                 </button>
               </a>
 
               <a href='/'>
-                <button>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Code
                 </button>
               </a>
             </div>
         </div>
       </div>
+
+      <div style={{backgroundImage: `url(${countriesHome})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+        <div className='opacity-0 group-hover:opacity-100'>
+          <span className='text-2xl font-bold text-white tracking-wider'>
+    ReactJs App
+          </span>
+            <div>
+            <a href='/'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Deploy
+                </button>
+              </a>
+
+              <a href='/'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+        </div>
+      </div>
+
+      <div style={{backgroundImage: `url(${games})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+        <div className='opacity-0 group-hover:opacity-100'>
+          <span className='text-2xl font-bold text-white tracking-wider'>
+    ReactJs App
+          </span>
+            <div>
+            <a href='/'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Deploy
+                </button>
+              </a>
+
+              <a href='/'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+        </div>
+      </div>
+
+      <div style={{backgroundImage: `url(${bricks})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+        <div className='opacity-0 group-hover:opacity-100'>
+          <span className='text-2xl font-bold text-white tracking-wider'>
+    ReactJs App
+          </span>
+            <div>
+            <a href='/'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Deploy
+                </button>
+              </a>
+
+              <a href='/'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                  Code
+                </button>
+              </a>
+            </div>
+        </div>
+      </div>
+
+
     </div>
     </div>
     </div>

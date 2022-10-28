@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa"
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from "react-icons/bs"
 import logo from "../assets/logo.png"
+import {Link} from "react-scroll"
 
 export default function Navbar() {
 
@@ -17,11 +18,22 @@ export default function Navbar() {
            
             {/* <div className='hidden md:flex'> */}
                     <ul className='hidden md:flex'>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Skills</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
+                        <Link to="home" smooth={true}  duration={500}>
+                            <li>Home</li>
+                        </Link>
+                        <Link to="about" smooth={true}  duration={500}>
+                            <li>About</li>
+                        </Link>
+                        <Link to="skills" smooth={true}  duration={500}>
+                            <li>Skills</li>
+                        </Link>
+                        <Link to="projects" smooth={true}  duration={500}>
+                            <li>Projects</li>
+                        </Link>
+                        <Link to="home" smooth={true}  duration={500}>
+                            <li>contact</li>
+                        </Link>
+
                     </ul>
                 {/* </div> */}
 
@@ -32,11 +44,22 @@ export default function Navbar() {
 <div>
 
                 <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#141c3c] flex flex-col justify-center items-center"}>
-                    <li className='py-6 text-4xl'>Home</li>
-                    <li className='py-6 text-4xl'>About</li>
-                    <li className='py-6 text-4xl'>Skills</li>
-                    <li className='py-6 text-4xl'>Projects</li>
-                    <li className='py-6 text-4xl'>Contact</li>
+
+                        <Link onClick={handleClick} to="home" smooth={true}  duration={500}>
+                            <li  className='py-6 text-4xl'>Home</li>
+                        </Link>
+                        <Link onClick={handleClick} to="about" smooth={true}  duration={500}>
+                            <li className='py-6 text-4xl'>About</li>
+                        </Link>
+                        <Link onClick={handleClick} to="skills" smooth={true}  duration={500}>
+                            <li className='py-6 text-4xl'>Skills</li>
+                        </Link>
+                        <Link onClick={handleClick} to="projects" smooth={true}  duration={500}>
+                            <li className='py-6 text-4xl'>Projects</li>
+                        </Link>
+                        <Link onClick={handleClick} to="home" smooth={true}  duration={500}>
+                            <li className='py-6 text-4xl'>contact</li>
+                        </Link>
                 </ul>
 </div>
 
