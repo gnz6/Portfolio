@@ -30,8 +30,8 @@ export default function Navbar() {
                         <Link to="projects" smooth={true}  duration={500}>
                             <li>Projects</li>
                         </Link>
-                        <Link to="home" smooth={true}  duration={500}>
-                            <li>contact</li>
+                        <Link to="contact" smooth={true}  duration={500}>
+                            <li>Contact</li>
                         </Link>
 
                     </ul>

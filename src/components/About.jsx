@@ -11,7 +11,7 @@ export default function About(){
             <div></div>
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-              <div className='sm: text-right text-4xl font-bold'>
+              <div className='sm: text-right text-4xl font-bold items-center justify-center'>
               <p>I'm Gonza, Welcome! Please take a look around 👀</p>
               </div>
             <div>
