@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from "react-icons/bs"
 import logo from "../assets/logo.png"
 import {Link} from "react-scroll"
+// import "../assets/FullStack-GonzaloPirovano.pdf"
 
 export default function Navbar() {
 
@@ -11,7 +12,7 @@ export default function Navbar() {
     const handleClick=()=>setNav(!nav)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-evenly items-center px-4 bg-[#141c3c] text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-evenly items-center px-4 bg-[#121f3d] text-gray-300'>
                 <div className='flex w-full'>
                 <img src={logo} alt="GP" style={{width: "80px"}}/>
                 </div>
@@ -67,25 +68,25 @@ export default function Navbar() {
                 <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                     <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700'>
-                            <a href='/' className='flex justify-between w-full text-gray-300'>
+                            <a href='https://www.linkedin.com/in/gonzalo-pirovano/' className='flex justify-between w-full text-gray-300'>
                                 LinkedIn <FaLinkedin size={30}/>
                             </a>
                         </li>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-900'>
-                            <a href='/' className='flex justify-between w-full text-gray-300'>
+                            <a href='https://github.com/gnz6' className='flex justify-between w-full text-gray-300'>
                                 Github <FaGithub size={30}/>
                             </a>
                         </li>
 
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-700'>
-                            <a href='/' className='flex justify-between w-full text-gray-300'>
+                            <a  href='mailto:gonzalopirovano1@gmail.com' className='flex justify-between w-full text-gray-300'>
                                 Email <HiOutlineMail size={30}/>
                             </a>
                         </li>
 
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-orange-600'>
-                            <a href='/' className='flex justify-between w-full text-gray-300'>
-                                Resume <BsFillPersonLinesFill size={30}/>
+                            <a href="../assets/FullStack-GonzaloPirovano.pdf" download="CV-GonzaloPirovano" className='flex justify-between w-full text-gray-300'>
+                                Download CV<BsFillPersonLinesFill size={30}/>
                             </a>
                         </li>
                     </ul>

@@ -15,7 +15,7 @@ import boostrap from "../assets/boostrap.png"
 
 export default function Skills(){
   return (
-    <div name="skills" className=' w-full h-screen bg-[#141c3c]  text-gray-300'>
+    <div name="skills" className=' w-full h-screen bg-[#121f3d] text-gray-300'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen'>
             <div>
                 <p className='text-4xl inline border-b-4  border-[#d57d26]'>Lenguages and Tools 🛠</p>
