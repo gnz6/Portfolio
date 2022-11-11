@@ -88,7 +88,7 @@ HenryGames 🕹️
       </div>
 
       <div style={{backgroundImage: `url(${bricks})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-        <div className='opacity-0 group-hover:opacity-100'>
+      <div className='opacity-0 items-center justify-center text-center group-hover:opacity-100'>
           <span className='text-3xl font-bold text-white tracking-wider'>
     Bricks & Buckets 🧱🏀
           </span>
