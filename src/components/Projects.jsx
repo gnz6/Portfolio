@@ -78,9 +78,15 @@ HenryGames 🕹️
           </span>
             <div>
 
-              <a href='https://github.com/gnz6/pi'>
-              <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-slate-800 hover:text-gray-200'>
-                  Code
+            <a href='https://github.com/gnz6/henryGames_back'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-slate-800 hover:text-gray-200'>
+                  Backend-Code
+                </button>
+              </a>
+
+              <a href='https://github.com/gnz6/henryGames_front'>
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-slate-800 hover:text-gray-200'>
+                  Frontend-Code
                 </button>
               </a>
             </div>
