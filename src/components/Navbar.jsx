@@ -4,7 +4,6 @@ import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from "react-icons/bs"
 import logo from "../assets/logo.png"
 import {Link} from "react-scroll"
-// import "../assets/FullStack-GonzaloPirovano.pdf"
 
 export default function Navbar() {
 
@@ -14,25 +13,25 @@ export default function Navbar() {
     return (
         <div className='fixed w-full h-[80px] flex justify-evenly items-center px-4 bg-[#121f3d] text-gray-300'>
                 <div className='flex w-full pt-2'>
-                <img src={logo} alt="GP" style={{width: "90px", height:"90px"}}/>
+                <img src={logo} alt="GP" style={{width: "80px", height:"80px"}}/>
                 </div>
            
             {/* <div className='hidden md:flex'> */}
                     <ul className='hidden md:flex'>
                         <Link to="home" smooth={true}  duration={500}>
-                            <li class="font-bold text-xl">Home</li>
+                            <li class="font-bold text-xl hover:font-[#d57d26] transition duration-150">Home</li>
                         </Link>
                         <Link to="about" smooth={true}  duration={500}>
-                            <li class="font-bold text-xl">About</li>
+                            <li class="font-bold text-xl hover:font-[#d57d26] transition duration-150">About</li>
                         </Link>
                         <Link to="skills" smooth={true}  duration={500}>
-                            <li class="font-bold text-xl">Skills</li>
+                            <li class="font-bold text-xl hover:font-[#d57d26] transition duration-150">Skills</li>
                         </Link>
                         <Link to="projects" smooth={true}  duration={500}>
-                            <li class="font-bold text-xl">Projects</li>
+                            <li class="font-bold text-xl hover:font-[#d57d26] transition duration-150">Projects</li>
                         </Link>
                         <Link to="contact" smooth={true}  duration={500}>
-                            <li class="font-bold text-xl">Contact</li>
+                            <li class="font-bold text-xl hover:font-[#d57d26] transition duration-150">Contact</li>
                         </Link>
 
                     </ul>
@@ -47,19 +46,19 @@ export default function Navbar() {
                 <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#141c3c] flex flex-col justify-center items-center"}>
 
                         <Link onClick={handleClick} to="home" smooth={true}  duration={500}>
-                            <li  className='py-6 text-4xl font-bold'>Home</li>
+                            <li  className='py-6 text-4xl font-bold hover:font-[#d57d26] transition duration-150'>Home</li>
                         </Link>
                         <Link onClick={handleClick} to="about" smooth={true}  duration={500}>
-                            <li className='py-6 text-4xl font-bold'>About</li>
+                            <li className='py-6 text-4xl font-bold hover:font-[#d57d26] transition duration-150'>About</li>
                         </Link>
                         <Link onClick={handleClick} to="skills" smooth={true}  duration={500}>
-                            <li className='py-6 text-4xl font-bold'>Skills</li>
+                            <li className='py-6 text-4xl font-bold hover:font-[#d57d26] transition duration-150'>Skills</li>
                         </Link>
                         <Link onClick={handleClick} to="projects" smooth={true}  duration={500}>
-                            <li className='py-6 text-4xl font-bold'>Projects</li>
+                            <li className='py-6 text-4xl font-bold hover:font-[#d57d26] transition duration-150'>Projects</li>
                         </Link>
                         <Link onClick={handleClick} to="home" smooth={true}  duration={500}>
-                            <li className='py-6 text-4xl font-bold'>Contact</li>
+                            <li className='py-6 text-4xl font-bold hover:font-[#d57d26] transition duration-150'>Contact</li>
                         </Link>
                 </ul>
 </div>
