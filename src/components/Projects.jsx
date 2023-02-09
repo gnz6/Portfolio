@@ -144,7 +144,7 @@ const Projects = () => {
           <div style={{ backgroundImage: `url(${calendar})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             <div className='opacity-0 items-center justify-center text-center group-hover:opacity-100 transition duration-200'>
               <span className='text-3xl font-bold text-white tracking-wider'>
-               Journal App 🗒️🖊️
+               Calendar App 📆
               </span>
               <hr></hr>
               <span className='text-lg font-bold text-white tracking-wider'>
